@@ -5,7 +5,7 @@
 
 Iniciado em Dezembro/2021 sob tutoria do Professor Thiago Nascimento.<br>
 
--Protótipo desenvolvido com a ferramenta Figma: <br> 
+Protótipo desenvolvido com a ferramenta Figma: <br> 
 Disponível em: https://www.figma.com/file/TyUuaUI5aYAgmRlH4wYSmG/game_mania?node-id=0%3A1 <br>
 Site responsivo, construído em HTML, CSS, JavaScript. <br>
 FrameWorks Angular e Bootstrap.<br>
