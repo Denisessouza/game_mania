@@ -12,9 +12,13 @@ FrameWorks Angular e Bootstrap.<br>
 Testes de FrontEnd serão realizados com Selenium - Linguagem Java. 
 
 **Entrega SA 2 - Implementação de Interface 10/07/2022:** 
-- Desenvolvimento completo da estrutura HTML do DESKTOP.<br>
-Pendente algumas estilizações do CSS na parte final da página ( Seção Cards Animados, Seção Videos e Footer).<br>
-Implementada página de Login - Página ainda sem formatação - texto teste. 
+- Desenvolvimento completo da estrutura HTML e CSS do DESKTOP.<br>
+- Implementada página de Login - Página ainda sem formatação - texto teste.<br>
+- Em desenvolvimento:<br>
+Implementação de funcionalidade JavaScript no botão "Participe";<br>
+Implementação da funcionalidade do "Menu de Hambúrguer";<br>
+Pendente algumas estilizações do CSS na parte final da página ( Seção Cards Animados, Seção Videos e Footer);.<br>
+ 
 
 
 
