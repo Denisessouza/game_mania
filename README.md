@@ -9,6 +9,7 @@ Testes de FrontEnd serão realizados com Selenium - Linguagem Java.
 Entrega 10/07/2022: 
 - Desenvolvimento completo da estrutura HTML do DESKTOP.
 Pendente algumas estilizações do CSS na parte final da página ( Seção Cards Animados, Seção Videos e Footer).
+Implementada página de Login - Página ainda sem formatação - texto teste. 
 
 
 
