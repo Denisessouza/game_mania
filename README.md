@@ -13,6 +13,14 @@ Testes de FrontEnd serão realizados com Selenium - Linguagem Java.
 
 **Entrega SA 2 - Implementação de Interface 10/07/2022:** 
 - Desenvolvimento completo da estrutura HTML e CSS do DESKTOP.<br>
+Criados: <br>
+Navbar com menu responsivo (Hambúrguer).<br>
+Banners estáticos. <br>
+Cards das promoções das lojas com recurso de movimento desenvolvido em CSS (ao passar o mouse o mouse se desloca 5px para cima), além do sombreamento que foi criado com um Shadow Generator.<br> 
+Sessão de cards animados para que o usuários visualize imagens de uma promoção. <br>
+Sessão de vídeos mais assistidos, instalado na página via Iframe.<br>
+Rodapé simples. 
+
 - Implementada página de Login - Página ainda sem formatação - texto teste.<br>
 - Em desenvolvimento:<br>
 Implementação de funcionalidade JavaScript no botão "Participe";<br>
