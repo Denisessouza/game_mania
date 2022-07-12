@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;500&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Inconsolata&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700;1,900&family=Neuton:wght@200;400&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
 
 * {
     margin: 0;
@@ -17,7 +19,7 @@ header {
 
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
 }
@@ -32,12 +34,13 @@ header {
     display:flex;
     justify-content: flex-end;
     
+    
 }
 
 .menu a {
     color: white;
-    text-decoration: none;
     font-size: 20px;
+   
     
 }
 
@@ -50,8 +53,9 @@ header {
     width: 1000px;
     height: 30px;
     border-radius: 15px;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
 
  
 }
@@ -60,15 +64,39 @@ header {
     width: 30px;
     
     
+    
 }   
     
+.menu_compras {
+    background-color: black;
+    padding: 25px;
+    width: 100%;
+    padding: 25px;
+    margin-top: 20px;
+      
+    
+   
+}
+
+.menu_compras a {
+    text-decoration: none;
+    color:aliceblue;
+    font-family: inconsolata;
+    font-size: large;
+}
+
+#menu_compras {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .banner {
     height: 500px;
     background-image: url(../imagens/banner01.png); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-top: 10px;
+    
     
         
 }
@@ -226,11 +254,13 @@ header {
 
 
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:834px) {
     .cabecalho {
         background-color: cadetblue;
 
     }
 
+           
+    
     
 }
