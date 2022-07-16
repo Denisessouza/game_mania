@@ -13,8 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <!-- <script src="javascript/jquery.js" defer> </script>
-    <script src="javascript/script.js" defer></script> -->
+    <script src="javascript/jquery.js" defer> </script>
+    <script src="javascript/script.js" defer></script>
 </head>
 
 <body>
@@ -25,18 +25,25 @@
             <a href="#"><img class="logo" src="imagens/clash_store.png" alt=""></a>
 
             <nav class="menu img">
+            <div class="menu_01">
+
+                <a href="#"> Action Figures </a>
+                <a href="#"> Pelúcias </a>
+                <a href="#"> Gift Cards </a>
+                <a href="#"> Camisetas </a>
+            </div>
+            <div class="login_carrinho">
                 <a href="login.html"> <img src="imagens/branco-king-login.png"
                         alt="Imagem link para se conectar ao site"></a>
                
-                <a href="#"><img src="imagens/branco-compras.png" alt="Imagem do carrinho de compras"></a>
-                
-                   
-
-
-           
+                <a href="#"><img src="imagens/branco-compras.png" alt="Icone carrinho de compras"></a>
+            </div> 
+            <a href="#" onclick="mostrarMenu()" id="barras"> <img class="icone_menu" src="imagens/hamburger-menu.png" alt=""></a>                
         </div>
         </nav>
+
         
+                
     </header>
 
     <div class="container">
@@ -47,21 +54,20 @@
             <img class="lupa" src="imagens/research.png" alt="botão de pesquisa">
         </form>
     </div>
-    
-    <section class=" menu_compras">
+
+    <section class="menu_compras">
         <div class="container">
             <div id="menu_compras">
-                <a href="#"> Action Figures </a>
-                <a href="#"> Pelúcias </a>
-                <a href="#"> Gift Cards </a>
-                <a href="#"> Camisetas </a>
+               
+
+                 
             </div>
 
         </div>
-      
+        
         
     </section>
-    <a href="imagens/menubranco.png" id="barras" onclick="mostraMenu" img class="icone-menu"></a>
+    
 
 
     <section class="banner">
@@ -88,7 +94,7 @@
                     <p> Comprar </p>
                 </div>
 
-                <div class="card img">
+                <div class="card">
                     <h6> Boneco Pekka</h6>
                     <h5> 95,00</h5>
                     <img src="imagens/pekka_loja.png" alt="boneco personagem pekka">
@@ -131,19 +137,12 @@
 
     </section>
 
-    <section class="multi_cards">
-        <div class="container"></div>
-        <div>
-
-
-        </div>
-
-
-    </section>
-    <section class="galeria">
+ 
+    
+    <section class="galeria_imagens">
         <div class="container">
-
-
+            <h2>Cadastra-se e concorra a um Poster Exclusivo !</h2>
+            <a href="#"> Participe </a>
             <div class="galeria">
                 <img src="imagens/card01_carrossel.jpg" alt="">
                 <img src="imagens/card2_carrossel.jpg" alt="">
@@ -166,11 +165,11 @@
     <section class="video">
         <div containter>
             <div class="videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/gihz9-nC72A"
+                <iframe width="460" height="250" src="https://www.youtube.com/embed/gihz9-nC72A"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/PzUvOlyMHM4"
+                <iframe  width="460" height="250" src="https://www.youtube.com/embed/PzUvOlyMHM4"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>

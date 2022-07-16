@@ -25,14 +25,17 @@ header {
 }
 
 .logo {
-    width: 400px;
-    
+    width: 210px;
+    display: flex;
+    justify-content: flex-start;
 }
   
 .menu {
     width: 650px;
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    
     
     
 }
@@ -40,22 +43,47 @@ header {
 .menu a {
     color: white;
     font-size: 20px;
-   
+    text-decoration: none;
     
+
 }
 
 .menu img {
-    width: 40px;
+    width: 30px;
+    
+/*Menu de hamburguer*/   
+}
+.menu_01 {
+    width: 750px;
+    word-spacing: 30px;   
+       
+}    
+
+.login_carrinho {
+    display: flex;
+    justify-items: flex-end;
    
+    
+}
+#barras {
+    display: inline-block;
 }
 
+.icone_menu {
+    width: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
 .barra-busca {
-    width: 1000px;
+    width: 900px;
     height: 30px;
     border-radius: 15px;
     padding: 20px;
     margin-top: 20px;
-    margin-left: auto;
+    margin-left: 100px;
+    
 
  
 }
@@ -67,37 +95,16 @@ header {
     
 }   
     
-.menu_compras {
-    background-color: black;
-    padding: 25px;
-    width: 100%;
-    padding: 25px;
-    margin-top: 20px;
-      
-    
-   
-}
 
-.menu_compras a {
-    text-decoration: none;
-    color:aliceblue;
-    font-family: inconsolata;
-    font-size: large;
-}
-
-#menu_compras {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .banner {
     height: 500px;
     background-image: url(../imagens/banner01.png); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: 20px;
     
-    
+      
         
 }
 
@@ -108,7 +115,6 @@ header {
     background-position: center;
     background-size: cover;
        
-
 }
 
 .ofertas {
@@ -118,8 +124,7 @@ header {
     background-position: center;
     background-size: cover;
 
-         
-     
+             
     
 }
 .cards {
@@ -128,8 +133,6 @@ header {
     justify-content: space-around;
 
 }
-
-
 .card {
    
     border-radius: 15px;
@@ -142,7 +145,6 @@ header {
     border: 30px;
            
 }
-
 .card:hover {
     transform: translateY(-5px);
     cursor: pointer;
@@ -185,7 +187,6 @@ header {
     border-right: 80px;
     border-width: 40px;
     
-
 }
 
 .galeria img {
@@ -202,9 +203,45 @@ header {
     flex:4;
 
 }
-
-
     
+.galeria_imagens h2{
+    display: flex;
+    align-items: center;
+    
+}
+.galeria_imagens a {
+    
+    background-color: aqua;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: ridge;
+    
+}
+
+
+.banner_confira {
+    background-image: url(../imagens/banner_confira2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 106px;
+    margin-top: 150px;
+}
+
+
+.videos  {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+  
+
+}
 
 .rodape {
     background-color: #000000;
@@ -226,41 +263,22 @@ header {
 
 }
 
-.p_cadastro {
-    text-align: center;
-    font-family: roboto;
-    font-size: 30px;
-
-}
-
-.banner_confira {
-    background-image: url(../imagens/banner_confira2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 106px;
-    margin-top: 150px;
-}
-
-
-.videos  {
-    
-    box-align:middle;
-
-    
-
-}
-
-
-
 
 @media screen and (max-width:834px) {
     .cabecalho {
         background-color: cadetblue;
 
-    }
 
+    }
+ 
+
+    .logo {
+        width:fit-content;
+    }
            
+    .menu_01 {
+        display: none;
+    }
     
-    
+   
 }
