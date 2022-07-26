@@ -14,14 +14,15 @@ header {
     background-color: black;
     color: white;
     height: 100px;
-   
+
 }
 
 .cabecalho {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
+    
+        height: 100%;
 }
 
 .logo {
@@ -29,36 +30,37 @@ header {
     display: flex;
     justify-content: flex-start;
 }
-  
+
 .menu {
     width: 650px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-    
+
+
+
 }
 
 .menu a {
     color: white;
     font-size: 20px;
     text-decoration: none;
-    
+
 
 }
 
 .menu img {
     width: 30px;
-    
-/*Menu de hamburguer*/   
+
+    /*Menu de hamburguer*/
 }
+
 .menu_01 {
-    
-    word-spacing: 30px;   
-       
-}    
-   
+
+    word-spacing: 30px;
+
+}
+
 
 #barras {
     /* display: none; */
@@ -66,13 +68,14 @@ header {
 
 .login_carrinho {
     display: flex;
-       
+
 
 }
+
 .icone_menu {
     width: 40px;
-    
-    
+
+
 }
 
 
@@ -83,26 +86,26 @@ header {
     padding: 20px;
     margin-top: 20px;
     margin-left: 100px;
-    
+
 
 }
 
 .lupa {
     width: 30px;
-       
-    
-}       
+
+
+}
 
 .banner {
     height: 500px;
-    background-image: url(../imagens/banner01.png); 
+    background-image: url(../imagens/banner01.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-top: 20px;
-    
-      
-        
+
+
+
 }
 
 .banner-entrega {
@@ -111,60 +114,85 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-       
+
 }
 
 .ofertas {
-    height: 800px;
+    height: 900px;
     background-image: url(../imagens/background_promocao.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: cover;
 
-             
-    
+
+
 }
+
 .cards {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;   
+    justify-content: center; 
     flex-wrap: wrap;
 
 }
+
+
+
 .card {
-   
+
     border-radius: 15px;
     box-shadow: 15px 15px 30px 0 rgba(50, 50, 50 0.22);
-    padding: 30px;
-    margin: 30px;
-    width: 170px;    
-    transition: all 0,3s ease-out;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+    width: 180px;;
+    height: 220px;
+    transition: all 0, 3s ease-out;
     box-shadow: 12px 9px 15px 5px #000000;
     border: 30px;
-           
+    
+
 }
+
 .card:hover {
     transform: translateY(-5px);
     cursor: pointer;
 }
 
-.card h5 h6 {
-    color:black;
-        
+.card h5  {
+    color: black;
+
 }
 
-.card a {
-    color:black;
-    font-size: 10px;
+.cards a {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 12px;
     font-weight: bold;
     background-color: green;
     text-decoration: none;
-    border-radius: 10px;    
+    border-radius: 8px;
     padding: 10px;
-    margin: 8px;
-    width: 65px;
+    margin: 12px;
+    width: 75px;
     
-  
+    
+}
+
+
+
+.cards p, h5 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card img {
+    width: 55px;
+    align-items: center;
 }
 
 .banner-melhor {
@@ -173,19 +201,20 @@ header {
     background-position: center;
     background-size: cover;
     height: 100px;
-    
+
 }
 
 .galeria {
-    width:85vw;
-    height:60vmin;
-    display:flex;
+    width: 85vw;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
     gap: 0;
-    padding: 40px;   
+    padding: 40px;
     border-left: 190px;
     border-right: 80px;
     border-width: 40px;
-    
+
 }
 
 .galeria img {
@@ -199,20 +228,21 @@ header {
 }
 
 .galeria img:hover {
-    flex:4;
+    flex: 4;
 
 }
-    
-.galeria_imagens h2{
+
+.galeria_imagens h2 {
     font-family: Alfa Slab One;
     color: black;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     margin-top: 45px;
-    
+
 }
-.galeria_imagens a{
-    
+
+.galeria_imagens a {
+
     background-color: #5C86F2;
     text-decoration: none;
     color: black;
@@ -220,12 +250,12 @@ header {
     font-size: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     width: 150px;
     height: 60px;
     border-radius: 10px;
-    
-           
+
+
 }
 
 .bt_participe {
@@ -233,8 +263,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 35px;
-   
-     
+
+
 }
 
 .banner_confira {
@@ -247,18 +277,19 @@ header {
 }
 
 
-.videos  {
+.videos {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 60px;
-  
+
 
 }
 
 .rodape {
     background-color: #000000;
     height: 180px;
-    color:antiquewhite;
+    color: antiquewhite;
     font-family: roboto;
     padding: 30px;
 
@@ -279,17 +310,21 @@ header {
 
 
 @media screen and (max-width: 834px) {
-     .menu_01 {
+    .menu_01 {
         display: none;
+        flex-direction: column;
+        background-color: #5C86F2;
+        align-items: center;
+        position: absolute;
     }
 }
- 
-@media screen and (max-width:834px){
-    #barras{
+
+@media screen and (max-width:834px) {
+    #barras {
         display: inline-block;
-        
+
     }
-    
+
 }
 
 @media screen and (max-width:834px) {
@@ -298,24 +333,22 @@ header {
         position: relative;
 
     }
- 
+
 
     .logo {
-        width:fit-content;
-        
+        width: fit-content;
+
+
     }
-           
- @media screen and(max-width:834px) {
-        .menu_01 {
-            flex-direction: column;
-            background-color: #5C86F2;
-            align-items:center;
-            position: absolute;
-        }
-       
-    
- }   
-    
-    
-   
+
+    .barra-busca {
+        width: fit-content;
+    }
+
+
+
+
+
+
+
 }
