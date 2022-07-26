@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;500&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Inconsolata&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700;1,900&family=Neuton:wght@200;400&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Handlee&family=Inconsolata&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700;1,900&family=Neuton:wght@200;400&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
 * {
     margin: 0;
@@ -25,7 +25,7 @@ header {
 }
 
 .logo {
-    width: 210px;
+    width: fit-content;
     display: flex;
     justify-content: flex-start;
 }
@@ -54,25 +54,25 @@ header {
 /*Menu de hamburguer*/   
 }
 .menu_01 {
-    width: 750px;
+    
     word-spacing: 30px;   
        
 }    
+   
+
+#barras {
+    display: none;
+}
 
 .login_carrinho {
     display: flex;
-    justify-items: flex-end;
-   
-    
-}
-#barras {
-    display: inline-block;
-}
+       
 
+}
 .icone_menu {
     width: 40px;
-    display: flex;
-    justify-content: flex-start;
+    
+    
 }
 
 
@@ -85,16 +85,13 @@ header {
     margin-left: 100px;
     
 
- 
 }
 
 .lupa {
     width: 30px;
+       
     
-    
-    
-}   
-    
+}       
 
 .banner {
     height: 500px;
@@ -205,25 +202,36 @@ header {
 }
     
 .galeria_imagens h2{
+    font-family: Alfa Slab One;
+    color: black;
     display: flex;
-    align-items: center;
+    justify-content: center;    
+    margin-top: 45px;
     
 }
-.galeria_imagens a {
+.galeria_imagens a{
     
-    background-color: aqua;
+    background-color: #5C86F2;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-size: 20px;
     display: flex;
-    align-items: center;
-    width: 100px;
-    height: 40px;
+    justify-content: center;
+    align-items: center;    
+    width: 150px;
+    height: 60px;
     border-radius: 10px;
-    border-style: ridge;
     
+           
 }
 
+.bt_participe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+}
 
 .banner_confira {
     background-image: url(../imagens/banner_confira2.png);
@@ -231,7 +239,7 @@ header {
     background-position: center;
     background-size: cover;
     height: 106px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 
@@ -264,6 +272,23 @@ header {
 }
 
 
+
+
+@media screen and (max-width: 834px) {
+    .menu_01 {
+        display: none;
+        
+    }
+}
+ 
+@media screen and (max-width:834px){
+    #barras{
+        display: inline-block;
+        
+    }
+    
+}
+
 @media screen and (max-width:834px) {
     .cabecalho {
         background-color: cadetblue;
@@ -274,11 +299,11 @@ header {
 
     .logo {
         width:fit-content;
+        
     }
            
-    .menu_01 {
-        display: none;
-    }
+    
+    
     
    
 }
