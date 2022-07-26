@@ -61,7 +61,7 @@ header {
    
 
 #barras {
-    display: none;
+    /* display: none; */
 }
 
 .login_carrinho {
@@ -115,7 +115,7 @@ header {
 }
 
 .ofertas {
-    height: 950px;
+    height: 800px;
     background-image: url(../imagens/background_promocao.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -127,7 +127,8 @@ header {
 .cards {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 .card {
@@ -152,11 +153,12 @@ header {
         
 }
 
-.card p {
+.card a {
     color:black;
     font-size: 10px;
     font-weight: bold;
     background-color: green;
+    text-decoration: none;
     border-radius: 10px;    
     padding: 10px;
     margin: 8px;
@@ -231,6 +233,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 35px;
+   
+     
 }
 
 .banner_confira {
@@ -275,9 +279,8 @@ header {
 
 
 @media screen and (max-width: 834px) {
-    .menu_01 {
+     .menu_01 {
         display: none;
-        
     }
 }
  
@@ -292,7 +295,7 @@ header {
 @media screen and (max-width:834px) {
     .cabecalho {
         background-color: cadetblue;
-
+        position: relative;
 
     }
  
@@ -302,7 +305,16 @@ header {
         
     }
            
+ @media screen and(max-width:834px) {
+        .menu_01 {
+            flex-direction: column;
+            background-color: #5C86F2;
+            align-items:center;
+            position: absolute;
+        }
+       
     
+ }   
     
     
    
