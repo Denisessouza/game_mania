@@ -18,6 +18,8 @@ Protótipo: <br>
 FrameWorks Angular e Bootstrap.<br>
 Testes de FrontEnd serão realizados com Selenium - Linguagem Java.** 
 
+## Diário de Produção ##
+
 **10/07/2022:**
 - Desenvolvimento completo da estrutura HTML e CSS do DESKTOP.<br>
 Criados: <br>
