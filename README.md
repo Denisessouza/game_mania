@@ -11,7 +11,7 @@ Imagens Free: <br>
 [WallPapers Safari](https://wallpapersafari.com/clash-royale-wallpapers/)
 
 
-Protótipo: 
+Protótipo: <br>
 [Figma](https://www.figma.com/file/TyUuaUI5aYAgmRlH4wYSmG/game_mania?node-id=0%3A1) 
 
 **Site responsivo, construído em HTML, CSS, JavaScript. <br>
