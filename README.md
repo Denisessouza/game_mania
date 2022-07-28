@@ -1,11 +1,15 @@
  # Game Mania Store #
  :star2:
 **Projeto da UC9 - Front-end do Curso FullStack Web - Escola Senai** <br>
-
-- **Todas as imagens, textos e códigos foram usados exclusivamente para fins educacionais, não sendo a página funcional ou utilizada para vendas ou quaisquer fins lucrativos.**
-
 Início: Dezembro/2021<br>
 Tutoria do Professor Thiago Nascimento.<br>
+
+- **Todas as imagens, textos e códigos foram usados exclusivamente para fins educacionais, não sendo a página funcional ou utilizada para vendas ou quaisquer fins lucrativos.** <br>
+
+Imagens Free: <br>
+[Flaticon](https://www.flaticon.com/br/) <br>
+[WallPapers Safari](https://wallpapersafari.com/clash-royale-wallpapers/)
+
 
 Protótipo: 
 [Figma](https://www.figma.com/file/TyUuaUI5aYAgmRlH4wYSmG/game_mania?node-id=0%3A1) 
