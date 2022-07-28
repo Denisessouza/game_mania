@@ -27,7 +27,7 @@ Sessão de vídeos mais assistidos, instalado na página via Iframe - Foram feit
 
 **25/07:**
 - Ajustada a sessão de Ofertas - Desafio importante na aplicação do Flexbox e no ajuste das imagens que compõe o card. O botão comprar funcional. <br>
-Menu Hamburguer:
+Menu Hamburguer - Responsivo:
 Funcionando a função de esconder e mostrar o Menu, porém, não está sendo exibido os itens do Menu no formato Collumn que foi definido. Menu bloqueado, em análise. 
 
 **26/07:**
@@ -35,10 +35,15 @@ Funcionando a função de esconder e mostrar o Menu, porém, não está sendo ex
 Construíndo os cards, alterando as imagens e apanhando miseravelmente da sessão Ofertas/ card / Cards.
 Finalizada a sessão Vídeo e Promoção do Poster. 
 
+**27/07**
+- Implementação do Menu Responsivo por JavaScript. Pendente ajustes em CSS.
+
+
 
 - Em desenvolvimento:<br>
 
-  * Implementação da funcionalidade do "Menu de Hambúrguer";<br>
+  * Ajustes do Menu Responsivo (Hambúrguer)<br>
+  * Construção do conteúdo dos Cards da sessão Ofertas. <br>
   * Pendente estilização do Footer. <br>
   * Página de Login
  
