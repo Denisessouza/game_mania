@@ -39,11 +39,14 @@ Finalizada a sessão Vídeo e Promoção do Poster.
 - Implementação do Menu Responsivo por JavaScript. Pendente ajustes em CSS.
 
 
+**28/07**
+
+- Finalizada a Seção de Ofertas. Cardas preenchidos e organizados por Flexbox. 
+- Está implementado o menu responsivo, porém com alguma pequena falha de passagem quando eu libero o #barras.
 
 - Em desenvolvimento:<br>
 
-  * Ajustes do Menu Responsivo (Hambúrguer)<br>
-  * Construção do conteúdo dos Cards da sessão Ofertas. <br>
+ 
   * Pendente estilização do Footer. <br>
   * Página de Login
  
