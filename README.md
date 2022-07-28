@@ -42,12 +42,12 @@ Finalizada a sessão Vídeo e Promoção do Poster.
 **28/07**
 
 - Finalizada a Seção de Ofertas. Cardas preenchidos e organizados por Flexbox. 
-- Está implementado o menu responsivo, porém com alguma pequena falha de passagem quando eu libero o #barras.
+- Está implementado o menu responsivo, porém com alguma pequena falha de passagem quando eu libero o #barras. CSS finalizado. 
 
 - Em desenvolvimento:<br>
 
  
-  * Pendente estilização do Footer. <br>
+  * Footer. <br>
   * Página de Login
  
 
