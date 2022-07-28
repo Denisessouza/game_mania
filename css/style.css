@@ -41,7 +41,7 @@ header {
 
 }
 
-.menu a {
+#menu_01 a {
     color: white;
     font-size: 20px;
     text-decoration: none;
@@ -55,7 +55,7 @@ header {
     /*Menu de hamburguer*/
 }
 
-.menu_01 {
+#menu_01 {
 
     word-spacing: 30px;
 
@@ -123,6 +123,7 @@ header {
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
+    
 
 
 
@@ -268,7 +269,7 @@ header {
 }
 
 .banner_confira {
-    background-image: url(../imagens/banner_confira2.png);
+    background-image: url(../imagens/confira_videos.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -282,6 +283,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 60px;
+    margin-left: 80px;
+    margin-left: 80px;
 
 
 }
@@ -310,12 +313,19 @@ header {
 
 
 @media screen and (max-width: 834px) {
-    .menu_01 {
+    #menu_01 {
+       
         display: none;
-        flex-direction: column;
-        background-color: #5C86F2;
+        flex-direction:column;
+        justify-content: center;
+        background-color: #080808;
         align-items: center;
-        position: absolute;
+        position:absolute;
+        top: 92px;
+        left: 0px;        
+        padding: 30px;        
+        border-radius: 10px;
+        
     }
 }
 
@@ -329,7 +339,7 @@ header {
 
 @media screen and (max-width:834px) {
     .cabecalho {
-        background-color: cadetblue;
+        background-color: #080808;
         position: relative;
 
     }
@@ -343,12 +353,27 @@ header {
 
     .barra-busca {
         width: fit-content;
+
+ 
+    
     }
 
 
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
 
 
 
 
 
-}
