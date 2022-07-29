@@ -14,5 +14,5 @@ function mostrarMenu() {
 function cadastrarNewsletter(){
     let email = document.getElementById("email").value;
     
-    alert(email + " \nCadastrado com Sucesso ")
+    alert(email + " \nCadastrado com Sucesso♥ ")
 }

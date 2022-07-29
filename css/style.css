@@ -109,10 +109,9 @@ header {
 }
 
 .ofertas {
-    height: 900px;
+    height: 1000px;
     background-image: url(../imagens/background_promocao.jpg);
-    
-    background-position: left;
+        background-position: left;
     background-size: cover;
     
 
@@ -141,8 +140,8 @@ header {
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 50px;
-    width: 160px;;
-    height: 210px;
+    width: 150px;;
+    height: 230px;
     transition: all 0, 3s ease-out;
     box-shadow: 12px 9px 15px 5px #000000;
     border: 30px;
@@ -160,53 +159,51 @@ header {
 
 .card img {
     width: 80px;
-    padding: 15px;
+    padding: 10px;
+   
+   
+    
 }
 
 
-.cards a {
-        
-    color: black;
-    font-size: 10px;
+.cards a {       
+    
+    font-size: 12px;
     font-family: Alfa Slab One;
-    background-color: green;
     text-decoration: none;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px;
-    width: 70px;
+    color: black;
+    background-color: green;
+    border-radius: 8px;   
+    width: 75px;
     height: 20px;
-    padding: 12px;
-    align-items: center;
+    padding: 15px;    
     display: flex;
     align-items: center;
     justify-content:center
-    
+   
     
 }
-
-
-
 .cards p {
     display: flex;
     justify-content: center;
     align-content: center;
     font-family: Alfa Slab One;
     color: black;
-    font-size: 12px;
+    font-size: 13px;
     display: flex;
     align-items: center;
+    margin-top: 8px;
 }
 
 .card h5 {
+    font-family: Alfa Slab One;
+    color: black;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: Alfa Slab One;
-    color: black;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
+    padding: 10px;
+    
 
 
 }
@@ -215,6 +212,7 @@ header {
     width: 30px;
     display: flex;
     justify-content: center;
+  
     
 
 }
