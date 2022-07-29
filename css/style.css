@@ -42,7 +42,7 @@ header {
 
 #menu_01 a {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Inconsolata;
     text-decoration: none;
     display: flex;
@@ -60,9 +60,9 @@ header {
 }
 
 
-/* #barras {
+#barras {
     display: none;
-} */
+}
 
 .icone_menu {
     width: 40px;
@@ -280,7 +280,7 @@ header {
     width: 150px;
     height: 60px;
     border-radius: 10px;
-
+   
 
 }
 
@@ -308,53 +308,52 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 60px;
-    margin-left: 80px;
-    margin-left: 80px;
+    margin-left: 100px;
+    margin-left: 100px;
     
 
 
 }
 
-.rodape {
+.footer {
     background-color: #000000;
     height: 180px;
     color: antiquewhite;
-    font-family: roboto;
+    font-family: inconsolata;
     padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    
+    
 
 }
+
+/* .footer li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly
+    
+} */
 
 .imglista {
     width: 20px;
 }
 
-.icone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 
 
 
 
-@media screen and (max-width: 834px) {
-    #menu_01 {
-       
-        display: flex;
-        
-                 
-    }
-}
 
 @media screen and (max-width: 834px){
-    #menu_01 {
-        
-        display: flex;
+    
+    #menu_01 {        
+        display: none;
         flex-direction:column;
+        justify-content: space-around;
         justify-content: center;
-        background-color: #080808;
-        align-items:flex-start;
+        background-color: #080808;        
         position:absolute;
         top: 92px;
         left: 0px;              
@@ -363,6 +362,9 @@ header {
     }
     
 }
+
+
+
 @media screen and (max-width:834px) {
     #barras {
         display: inline-block;
