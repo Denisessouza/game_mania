@@ -88,17 +88,27 @@ header {
 }
 
 .banner {
-    height: 500px;
-    background-image: url(../imagens/banner01.png);
+    height: 500px;    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-top: 20px;
 
-
+}
+.banner_principal {
+    background-image: url(../imagens/banner01.png);
 
 }
 
+.banner_corredor {
+    background-image:url(../imagens/corredor_banner.jpg);
+
+}
+
+.banner_mago {
+    background-image: url(../imagens/magobanner.jpg);
+
+}
 .banner-entrega {
     height: 100px;
     background-image: url(../imagens/entrega2.png);
