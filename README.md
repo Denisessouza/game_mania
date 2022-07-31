@@ -55,6 +55,9 @@ Finalizada a sessão Vídeo e Promoção do Poster.
 **29 e 30/07**
 - Implementação do Jquery, absolutamente nada funcionou. 
 
+**31/07**
+- Correção da funcionalidade de Carrossel via JQuery nos banners principais. 
+
  
   * Footer. <br>
   * Página de Login
