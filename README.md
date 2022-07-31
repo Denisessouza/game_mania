@@ -52,6 +52,9 @@ Finalizada a sessão Vídeo e Promoção do Poster.
 
 - Em desenvolvimento:<br>
 
+**29 e 30/07**
+- Implementação do Jquery, absolutamente nada funcionou. 
+
  
   * Footer. <br>
   * Página de Login
