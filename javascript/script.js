@@ -3,13 +3,28 @@ $ (document).ready(function(){
     let slideAtual = 1;
     let listaSlides = ["banner_principal", "banner_corredor", "banner_mago"]
 
+    setInterval(mudarSlides, 3000)
+
+
         function mudarSlides(){
 
+            console.log("Slide Atual", slideAtual)
+
+            //Remove o Slide anterior
             if(slideAtual > 0){
                 $("#carrossel").removeClass(listaSlides[slideAtual - 1])
                 
             } else if (slideAtual == 0){
                 $("#carrossel").removeClass(listaSlides[(listaSlides.length) - 1])
+            }
+            //Adiciona o Slide Atual 
+            $("#carrossel").addClass(listaSlides[slideAtual]);
+            
+            // Indica o Slide atual.
+            slideAtual++
+            // aqui está percorrendo a lista com o lenght e resetando quando encontra o zero    
+            if(slideAtual > (listaSlides.length - 1)) {
+                slideAtual = 0;
             }
         }
 
